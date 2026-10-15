@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGA LivrExpress | Livraison Rapide & Sécurisée à Allada</title>
+    <meta name="description" content="OMEGA LivrExpress est le service de livraison numéro 1 à Allada et ses environs. Livraison express de colis, plis urgents, repas et marchandises en moins de 30 minutes.">
+    <meta name="keywords" content="livraison Allada, coursier Allada, livraison express Bénin, OMEGA LivrExpress, transport colis Allada">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css?v=1.3">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF5500'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-announcement">
+        <div class="container top-bar-content">
+            <span class="pulse-dot"></span>
+            <p><strong>Service Actif 7j/7 :</strong> Coursiers disponibles en temps réel partout à Allada et environs !</p>
+            <a href="tel:+22997001234" class="top-phone">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                +229 97 00 12 34
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="site-header" id="navbar">
+        <div class="container header-container">
+            <a href="#hero" class="brand-logo" aria-label="Accueil OMEGA LivrExpress">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-omega">OMEGA</span>
+                    <span class="logo-express">LivrExpress</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                    <li><a href="#how-it-works" class="nav-link">Comment ça marche</a></li>
+                    <li><a href="#tarifs" class="nav-link">Nos Tarifs</a></li>
+                    <li><a href="#temoignages" class="nav-link">Témoignages</a></li>
+                    <li><a href="#simulateur" class="nav-link">Simulateur</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-cta-mobile">
+                    <a href="https://wa.me/22997001234?text=Bonjour%20OMEGA%20LivrExpress,%20je%20souhaite%20commander%20une%20livraison%20à%20Allada." target="_blank" rel="noopener" class="btn btn-primary btn-full">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        Commander sur WhatsApp
+                    </a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn btn-outline btn-calculator" id="openCalcBtn" aria-label="Calculer tarif">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="16" y1="14" x2="16" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
+                    <span>Calculer tarif</span>
+                </button>
+                <a href="https://wa.me/22997001234?text=Bonjour%20OMEGA%20LivrExpress,%20je%20souhaite%20commander%20une%20livraison%20à%20Allada." target="_blank" rel="noopener" class="btn btn-primary header-cta">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    <span>Commander</span>
+                </a>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button class="hamburger-btn" id="hamburgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge-pill hero-badge">
+                        <span class="badge-icon">⚡</span>
+                        <span>N°1 de la livraison express & sécurisée à Allada</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Vos colis livrés à <span class="highlight-orange">Allada</span> en un éclair et en toute confiance !
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Documents urgents, colis commerçants, repas chauds ou courses quotidiennes : nos coursiers professionnels récupèrent et remettent vos envois en main propre en moins de <strong>30 minutes</strong>.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="https://wa.me/22997001234?text=Bonjour%20OMEGA%20LivrExpress,%20je%20souhaite%20commander%20une%20livraison%20urgente." target="_blank" rel="noopener" class="btn btn-primary btn-lg glow-effect" id="heroCtaOrder">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                            <span>Commander une livraison</span>
+                        </a>
+                        <a href="#simulateur" class="btn btn-secondary btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            <span>Estimer mon prix</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust indicators -->
+                    <div class="hero-trust-bar">
+                        <div class="trust-item">
+                            <div class="trust-icon">⏱️</div>
+                            <div>
+                                <span class="trust-value">&lt; 30 min</span>
+                                <span class="trust-label">Délai moyen</span>
+                            </div>
+                        </div>
+                        <div class="trust-separator"></div>
+                        <div class="trust-item">
+                            <div class="trust-icon">🛡️</div>
+                            <div>
+                                <span class="trust-value">100%</span>
+                                <span class="trust-label">Colis garanti</span>
+                            </div>
+                        </div>
+                        <div class="trust-separator"></div>
+                        <div class="trust-item">
+                            <div class="trust-icon">📍</div>
+                            <div>
+                                <span class="trust-value">100% Allada</span>
+                                <span class="trust-label">& axes voisins</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Showcase -->
+                <div class="hero-visual">
+                    <div class="visual-wrapper">
+                        <div class="visual-glow"></div>
+                        <img src="assets/hero-delivery.jpg" alt="Livreur express OMEGA LivrExpress Allada" class="hero-main-img" width="800" height="600" loading="eager">
+
+                        <!-- Floating Live Status Card -->
+                        <div class="floating-card live-status-card">
+                            <div class="status-pulse-wrapper">
+                                <span class="pulse-ring"></span>
+                                <span class="pulse-core"></span>
+                            </div>
+                            <div class="card-details">
+                                <p class="card-title">Course en direct</p>
+                                <p class="card-desc">Marché d'Allada ➔ Attogon Centre</p>
+                                <span class="eta-tag">⏱️ Livré dans 8 min</span>
+                            </div>
+                        </div>
+
+                        <!-- Floating Rating Card -->
+                        <div class="floating-card rating-card">
+                            <div class="rating-stars">★★★★★</div>
+                            <p class="rating-score">4.9 / 5</p>
+                            <span class="rating-count">+1 800 courses réussies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION COMMENT ÇA MARCHE (3 ÉTAPES AVEC ICÔNES) -->
+        <section class="section section-how" id="how-it-works">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-pill">Simplicité & Rapidité</span>
+                    <h2 class="section-title">Comment ça marche ?</h2>
+                    <p class="section-subtitle">
+                        Une livraison fluide et sans stress en 3 étapes simples. Vous commandez, nous nous occupons de tout.
+                    </p>
+                </div>
+
+                <div class="steps-grid">
+                    <!-- Step 1 -->
+                    <div class="step-card" data-step="01">
+                        <div class="step-number">01</div>
+                        <div class="step-icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                                <path d="M9 7h6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="step-heading">1. Commandez en 2 clics</h3>
+                        <p class="step-description">
+                            Envoyez-nous un message WhatsApp ou appelez notre centrale. Indiquez le lieu de ramassage, le destinataire et la nature du colis.
+                        </p>
+                        <div class="step-feature-tag">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Prise en charge instantanée
+                        </div>
+                    </div>
+
+                    <!-- Step Connector 1 -->
+                    <div class="step-connector">
+                        <svg viewBox="0 0 40 24" fill="none">
+                            <path d="M0 12h32m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-card" data-step="02">
+                        <div class="step-number">02</div>
+                        <div class="step-icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="step-heading">2. Ramassage express (< 15 min)</h3>
+                        <p class="step-description">
+                            Notre coursier le plus proche est dépêché à votre adresse ou boutique à Allada. Votre colis est conditionné et sécurisé immédiatement.
+                        </p>
+                        <div class="step-feature-tag">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Coursiers locaux équipés
+                        </div>
+                    </div>
+
+                    <!-- Step Connector 2 -->
+                    <div class="step-connector">
+                        <svg viewBox="0 0 40 24" fill="none">
+                            <path d="M0 12h32m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-card" data-step="03">
+                        <div class="step-number">03</div>
+                        <div class="step-icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="step-heading">3. Remise en main propre</h3>
+                        <p class="step-description">
+                            Votre colis arrive à destination en toute sécurité. Vous recevez un accusé de réception en direct et nous gérons le paiement si nécessaire.
+                        </p>
+                        <div class="step-feature-tag">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Paiement à la livraison possible
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Callout Banner -->
+                <div class="how-cta-banner">
+                    <div class="banner-text">
+                        <h3>Besoin d'une course immédiate dans Allada ?</h3>
+                        <p>Nos coursiers sont déjà en selle pour vous servir.</p>
+                    </div>
+                    <a href="https://wa.me/22997001234?text=Urgent%20:%20J'ai%20besoin%20d'un%20coursier%20tout%20de%20suite%20à%20Allada." target="_blank" rel="noopener" class="btn btn-primary">
+                        Demander un coursier maintenant
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION TARIFS (3 OFFRES) -->
+        <section class="section section-pricing" id="tarifs">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-pill">Tarifs Transparents</span>
+                    <h2 class="section-title">Nos 3 Offres Adaptées à Vos Besoins</h2>
+                    <p class="section-subtitle">
+                        Des prix justes, sans frais cachés. Choisissez l'offre qui correspond à vos courses occasionnelles ou professionnelles.
+                    </p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Offre 1: Standard / Flash Intra-Allada -->
+                    <div class="pricing-card">
+                        <div class="card-head">
+                            <span class="tier-label">Particuliers & Petits plis</span>
+                            <h3 class="tier-name">Course Flash Allada</h3>
+                            <p class="tier-desc">Pour vos envois urgents intra-muros à Allada (documents, repas, achats express).</p>
+                        </div>
+                        <div class="pricing-amount">
+                            <span class="currency">FCFA</span>
+                            <span class="price">700</span>
+                            <span class="period">/ course</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Ramassage à Allada en <strong>&lt; 15 min</strong></span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Poids jusqu'à <strong>5 kg</strong></span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Confirmation de remise par WhatsApp</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Livraison directe sans détours</span>
+                            </li>
+                            <li class="muted-feature">
+                                <svg class="cross-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                <span>Hors périmètre inter-communes</span>
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://wa.me/22997001234?text=Bonjour,%20je%20souhaite%20une%20Course%20Flash%20Allada%20(700%20FCFA)." target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Choisir cette offre
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Offre 2: Inter-Communes (POPULAIRE) -->
+                    <div class="pricing-card featured-card">
+                        <div class="popular-ribbon">⭐ LE PLUS CHOISI</div>
+                        <div class="card-head">
+                            <span class="tier-label">Rayonnement Régional</span>
+                            <h3 class="tier-name">Express Inter-Communes</h3>
+                            <p class="tier-desc">Liaison Allada ⇄ Tori, Ouidah, Séhouè, Zè, Calavi et Cotonou.</p>
+                        </div>
+                        <div class="pricing-amount">
+                            <span class="currency">FCFA</span>
+                            <span class="price">2 000</span>
+                            <span class="period">/ dès</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Liaison express Allada & communes voisines</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Poids jusqu'à <strong>15 kg</strong></span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span><strong>Assurance colis incluse</strong></span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Suivi de position en direct sur WhatsApp</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Option remise contre signature</span>
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://wa.me/22997001234?text=Bonjour,%20je%20souhaite%20réserver%20un%20trajet%20Express%20Inter-Communes." target="_blank" rel="noopener" class="btn btn-primary btn-full glow-effect">
+                                Réserver une course
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Offre 3: Pack Business & E-Commerce -->
+                    <div class="pricing-card">
+                        <div class="card-head">
+                            <span class="tier-label">Boutiques & Commerçants</span>
+                            <h3 class="tier-name">Pack E-Commerce & Pro</h3>
+                            <p class="tier-desc">La logistique complète pour booster vos ventes et satisfaire vos clients.</p>
+                        </div>
+                        <div class="pricing-amount">
+                            <span class="currency">FCFA</span>
+                            <span class="price">25 000</span>
+                            <span class="period">/ mois (pack)</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Ramassages illimités à votre magasin</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span><strong>Encaissement (COD)</strong> sécurisé</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Reversement des fonds sous <strong>24h</strong></span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Tarif dégressif sur toutes vos expéditions</span>
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Gestion professionnelle des retours</span>
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://wa.me/22997001234?text=Bonjour,%20je%20suis%20commerçant%20et%20je%20veux%20en%20savoir%20plus%20sur%20le%20Pack%20E-Commerce." target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Devenir Partenaire Pro
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE CALCULATOR / SIMULATOR (BONUS WOW FEATURE) -->
+        <section class="section section-simulator" id="simulateur">
+            <div class="container">
+                <div class="simulator-card">
+                    <div class="simulator-intro">
+                        <span class="section-pill pill-light">Calculateur Instantané</span>
+                        <h2>Estimez le tarif de votre course en 5 secondes</h2>
+                        <p>Sélectionnez votre zone de départ et de destination pour calculer immédiatement le prix estimé et envoyer la commande sur WhatsApp.</p>
+                        
+                        <div class="simulator-highlights">
+                            <div class="sim-pill">✓ Zéro surprise</div>
+                            <div class="sim-pill">✓ Départ immédiat</div>
+                            <div class="sim-pill">✓ Suivi en direct</div>
+                        </div>
+                    </div>
+
+                    <div class="simulator-form-wrap">
+                        <form id="deliveryCalculatorForm" class="sim-form">
+                            <div class="form-group">
+                                <label for="pickupZone">Lieu de ramassage (Départ)</label>
+                                <div class="select-wrapper">
+                                    <select id="pickupZone" required>
+                                        <option value="intra" selected>Allada Centre / Marché</option>
+                                        <option value="intra">Gare d'Allada / Voie Principale</option>
+                                        <option value="peripherie">Attogon (Allada)</option>
+                                        <option value="peripherie">Avakpa / Sékou</option>
+                                        <option value="inter">Tori-Bossito</option>
+                                        <option value="inter">Ouidah</option>
+                                        <option value="inter_lointain">Calavi / Cotonou</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="dropoffZone">Lieu de livraison (Destination)</label>
+                                <div class="select-wrapper">
+                                    <select id="dropoffZone" required>
+                                        <option value="intra">Allada Centre / Quartier Résidentiel</option>
+                                        <option value="intra">Grand Marché d'Allada</option>
+                                        <option value="peripherie" selected>Attogon</option>
+                                        <option value="peripherie">Avakpa / Sékou</option>
+                                        <option value="inter">Tori-Bossito</option>
+                                        <option value="inter">Ouidah</option>
+                                        <option value="inter_lointain">Calavi / Cotonou</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="packageType">Type d'envoi</label>
+                                <div class="select-wrapper">
+                                    <select id="packageType">
+                                        <option value="pli" selected>Plis, enveloppe, documents (&lt; 1 kg)</option>
+                                        <option value="repas">Repas chaud / Nourriture</option>
+                                        <option value="colis_moyen">Colis standard (1 à 5 kg)</option>
+                                        <option value="colis_lourd">Colis volumineux (5 à 15 kg)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="calculator-result-box">
+                                <div class="calc-text">
+                                    <span>Prix estimé :</span>
+                                    <strong id="calculatedPrice">1 000 FCFA</strong>
+                                </div>
+                                <span class="calc-time" id="calculatedTime">⏱️ Livré en ~25 minutes</span>
+                            </div>
+
+                            <button type="button" id="sendCalculatedOrder" class="btn btn-primary btn-full glow-effect">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                                Valider & Commander sur WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION TÉMOIGNAGES (4 AVIS) -->
+        <section class="section section-testimonials" id="temoignages">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-pill">Confiance & Satisfaction</span>
+                    <h2 class="section-title">Ce Que Disent Nos Clients à Allada</h2>
+                    <p class="section-subtitle">
+                        Commerçants, professionnels de santé ou particuliers : découvrez leurs retours d'expérience avec OMEGA LivrExpress.
+                    </p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <!-- Avis 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="stars-row">
+                                ★★★★★
+                            </div>
+                            <span class="verified-badge">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Client Vérifié
+                            </span>
+                        </div>
+                        <p class="testimonial-quote">
+                            « Depuis que je confie mes expéditions à <strong>Omega LivrExpress</strong>, mes clientes à Allada et Attogon reçoivent leurs vêtements le jour même ! Le coursier est poli, hyper ponctuel et les encaissements me sont reversés sans le moindre centime d'écart. »
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-orange">CH</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Chantal Houndégbé</h4>
+                                <p class="author-role">Boutique Glamour Mode, Allada Centre</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Avis 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="stars-row">
+                                ★★★★★
+                            </div>
+                            <span class="verified-badge">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Client Vérifié
+                            </span>
+                        </div>
+                        <p class="testimonial-quote">
+                            « Nous avions besoin d’acheminer en urgence des prélèvements médicaux et des ordonnances scellées. Le coursier d’<strong>Omega LivrExpress</strong> s’est présenté en 8 minutes chrono et la livraison s'est faite avec une rigueur absolue. C'est le partenaire fiable qu'il manquait à notre ville. »
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-blue">BS</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Dr. Boris Sossou</h4>
+                                <p class="author-role">Praticien de Santé, Secteur Allada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Avis 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="stars-row">
+                                ★★★★★
+                            </div>
+                            <span class="verified-badge">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Client Vérifié
+                            </span>
+                        </div>
+                        <p class="testimonial-quote">
+                            « Dans la restauration, un plat qui arrive tiède est un client perdu. Avec <strong>Omega LivrExpress</strong>, leurs sacs thermiques et leur parfaite maîtrise des raccourcis d’Allada, nos commandes arrivent fumantes et intactes. Mention spéciale pour le suivi WhatsApp en direct ! »
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-green">MT</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Marc Tossou</h4>
+                                <p class="author-role">Gérant, Saveurs d'Allada Restaurant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Avis 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="stars-row">
+                                ★★★★★
+                            </div>
+                            <span class="verified-badge">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Client Vérifié
+                            </span>
+                        </div>
+                        <p class="testimonial-quote">
+                            « J’ai oublié un dossier capital à la maison avant de prendre la route. J’ai contacté <strong>Omega LivrExpress</strong> en panique : en 20 minutes chrono mon colis m'a été remis en main propre. Service client très réactif et chaleureux. Je recommande les yeux fermés ! »
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-purple">GK</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Gisèle Kpadonou</h4>
+                                <p class="author-role">Particulière & Cadre d'entreprise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ RAPIDE ACCORDION -->
+        <section class="section section-faq">
+            <div class="container faq-container">
+                <div class="section-header text-center">
+                    <span class="section-pill">Foire aux questions</span>
+                    <h2 class="section-title">Questions Fréquentes</h2>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item active">
+                        <button class="faq-question">
+                            <span>Quels sont vos délais d'intervention à Allada ?</span>
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Pour toute commande dans la commune d'Allada, notre coursier effectue le ramassage en moins de 15 minutes et la livraison s'effectue directement en moins de 30 minutes au total.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Proposez-vous le paiement à la livraison (Cash on Delivery) ?</span>
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui, absolument ! Nos livreurs peuvent encaisser le montant de vos ventes (espèces ou Mobile Money) auprès de vos clients et vous reverser l'argent instantanément ou sous 24h selon votre contrat.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quelles zones couvrez-vous autour d'Allada ?</span>
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Nous desservons tout le centre d'Allada, Attogon, Sékou, Avakpa, ainsi que les corridors Tori-Bossito, Ouidah, Séhouè et l'axe Calavi - Cotonou.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Comment suivre l'acheminement de mon colis ?</span>
+                            <span class="faq-arrow">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Dès que le coursier prend en charge votre colis, vous recevez un message WhatsApp avec son numéro direct et une notification de remise dès que le destinataire a réceptionné l'envoi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER AVEC CONTACTS ET RÉSEAUX SOCIAUX -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <!-- Col 1: Bio & Logo -->
+                <div class="footer-col footer-about">
+                    <div class="brand-logo footer-logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-omega">OMEGA</span>
+                            <span class="logo-express">LivrExpress</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">
+                        La solution logistique de référence à Allada. Rapidité, intégrité et ponctualité pour tous vos colis, plis urgents et livraisons commerciales.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://wa.me/22997001234" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok" class="social-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-1.01v8.83c0 2.47-1.01 4.88-2.8 6.55-1.8 1.68-4.31 2.6-6.79 2.5-2.58-.1-5.01-1.23-6.68-3.13-1.66-1.89-2.45-4.48-2.2-6.99.25-2.5 1.51-4.79 3.52-6.27 1.99-1.47 4.54-2.02 7-.15v4.13c-1.39-.7-3.08-.72-4.49.03-1.42.75-2.3 2.28-2.25 3.88.05 1.6 1.02 3.05 2.48 3.69 1.46.64 3.2.39 4.41-.65.61-.53.97-1.29.98-2.1V.02z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Navigation rapide -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#how-it-works">Comment ça marche</a></li>
+                        <li><a href="#tarifs">Nos 3 Offres de Tarifs</a></li>
+                        <li><a href="#simulateur">Simulateur de course</a></li>
+                        <li><a href="#temoignages">Avis Clients</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services & Zones -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Zones Desservies</h4>
+                    <ul class="footer-links">
+                        <li><span>📍 Allada Centre & Gare</span></li>
+                        <li><span>📍 Attogon</span></li>
+                        <li><span>📍 Sékou & Avakpa</span></li>
+                        <li><span>📍 Axe Tori-Bossito & Ouidah</span></li>
+                        <li><span>📍 Liaison Calavi - Cotonou</span></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contacts & Horaires -->
+                <div class="footer-col footer-contact-col">
+                    <h4 class="footer-heading">Nos Coordonnées</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Face Marché Principal & Gare ferroviaire, Allada, Bénin</span>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <a href="tel:+22997001234">+229 97 00 12 34</a>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:contact@omegalivrexpress.bj">contact@omegalivrexpress.bj</a>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            <span>Lundi – Dimanche : 06h30 – 21h30</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 <strong>OMEGA LivrExpress</strong> — Tous droits réservés. Votre partenaire de confiance à Allada.</p>
+                <div class="footer-legal-links">
+                    <span>Mentions Légales</span>
+                    <span>•</span>
+                    <span>Confidentialité</span>
+                    <span>•</span>
+                    <span>Conditions Générales</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action WhatsApp Button -->
+    <a href="https://wa.me/22997001234?text=Bonjour%20OMEGA%20LivrExpress,%20j'ai%20besoin%20d'une%20livraison%20rapide%20à%20Allada." target="_blank" rel="noopener" class="floating-wa-btn" aria-label="Commander rapidement par WhatsApp">
+        <div class="floating-tooltip">Besoin d'un coursier ? Écrivez-nous !</div>
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+    </a>
+
+    <!-- Toast Notification for dynamic feedback -->
+    <div id="toast" class="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
