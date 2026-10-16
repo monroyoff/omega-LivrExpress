@@ -52,5 +52,5 @@ OMEGA LivrExpress/
 
 - **Entreprise** : OMEGA LivrExpress
 - **Localisation** : Face Marché Principal & Gare ferroviaire, Allada, Bénin
-- **Téléphone / WhatsApp** : +229 97 00 12 34
+- **Téléphone / WhatsApp** : +229 01 95 44 44 30
 - **Email** : contact@omegalivrexpress.bj
