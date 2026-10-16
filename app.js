@@ -161,7 +161,7 @@ function initPriceCalculator() {
             const message = `Bonjour OMEGA LivrExpress ! 🛵💨\nJe souhaite commander une livraison :\n\n📍 *Départ* : ${data.pickupText}\n🎯 *Destination* : ${data.dropoffText}\n📦 *Type de colis* : ${data.packageText}\n💰 *Estimation* : ${data.price.toLocaleString('fr-FR')} FCFA\n\nPouvez-vous m'envoyer un coursier svp ?`;
             
             const encodedMsg = encodeURIComponent(message);
-            const waNumber = '22997001234';
+            const waNumber = '2290195444430';
             const waUrl = `https://wa.me/${waNumber}?text=${encodedMsg}`;
 
             showToast("Redirection vers WhatsApp pour confirmer votre coursier...");
