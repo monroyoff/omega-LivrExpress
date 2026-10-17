@@ -13,3 +13,9 @@
 # Logs and scratch files
 *.log
 scratch/
+
+# Environment files
+.env
+.env.*
+.env.local
+

@@ -167,7 +167,7 @@ function initPriceCalculator() {
             showToast("Redirection vers WhatsApp pour confirmer votre coursier...");
             
             setTimeout(() => {
-                window.open(waUrl, '_blank');
+                window.open(waUrl, '_blank', 'noopener,noreferrer');
             }, 500);
         });
     }
