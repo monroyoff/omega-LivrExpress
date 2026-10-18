@@ -1,0 +1,21 @@
+{
+  "name": "omega-livrexpress",
+  "version": "1.0.0",
+  "description": "Service de livraison ultra-rapide et sécurisée à Allada et ses environs",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "livraison",
+    "allada",
+    "benin",
+    "express"
+  ],
+  "author": "MONROY <jobovog@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lucide": "^1.59.0",
+    "lucide-react": "^1.59.0"
+  }
+}
